@@ -33,7 +33,7 @@ Los archivos de enrutamiento resultantes tienen un nombre como `IBERIA_202201*.m
 
 Edita la lista de enlaces a los archivos que se necesitan descargar de Geofabrik.
 
-- Si quieres crear una base de datos que sólo necesite descargar un único archivo de Geofabrik, puedes tomar `crea_routino_CANARIAS.*` como plantilla.
+- Si quieres crear una base de datos que sólo necesite descargar un único archivo de Geofabrik, puedes usar como plantilla `crea_routino_CANARIAS.*`
 - Si quieres crear una base de datos para una región transfronteriza que necesita descargar y combinar múltiples archivos, es una buena idea editar `crea_routino_IBERIA.*`
 
 #### Procesos
