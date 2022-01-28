@@ -32,8 +32,8 @@ The output routing database will take a name like `MyRegion_202201*.mem`. You ca
 
 Edit the list of links to the files that will be downloaded from Geofabrik.
 
-- If you want to build a database that just needs to download a single file from Geofabrik, you can take `get_routino_CANARIAS.*` as a template.
-- If you want to build a database for a cross-border region that needs to download and combine multiple files, it is a good idea to edit `get_routino_IBERIA.*`.
+- If you want to build a routing DB that just needs to download a single file from Geofabrik, you can take `get_routino_CANARIAS.*` as a template.
+- If you want to build a routing DB for a cross-border region that needs to download and combine multiple files, it is a good idea to edit `get_routino_IBERIA.*`, which downloads and combines 6 files from different regions to complete IBERIA.
 
 #### Threads
 Optionally you can also set the number of threads to be used by planetsplitter when compiling. More threads reduces the compilation time but needs more memory.
