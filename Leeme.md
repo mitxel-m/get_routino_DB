@@ -33,8 +33,8 @@ Los archivos de enrutamiento resultantes tienen un nombre como `IBERIA_202201*.m
 
 Edita la lista de enlaces a los archivos que se necesitan descargar de Geofabrik.
 
-- Si quieres crear una base de datos que sólo necesite descargar un único archivo de Geofabrik, puedes usar como plantilla `crea_routino_CANARIAS.*`
-- Si quieres crear una base de datos para una región transfronteriza que necesita descargar y combinar múltiples archivos, es una buena idea editar `crea_routino_IBERIA.*`
+- Si quieres crear una BD de enrutamineto que sólo necesite descargar un único archivo de Geofabrik, puedes usar como plantilla `crea_routino_CANARIAS.*`
+- Si quieres crear una BD de enrutamiento para una región transfronteriza que necesita descargar y combinar múltiples archivos, es una buena idea editar `crea_routino_IBERIA.*` . En ese ejemplo se descargan y combinan 6 ficheros de diferentes regiones para completar IBERIA.
 
 #### Procesos
 Opcionalmente se puede establecer el número de procesos simultaneos (threads) a utilizar por planetsplitter al compilar. Un mayor número de threads reduce el tiempo de compilación pero necesita más memoria.
