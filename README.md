@@ -11,11 +11,14 @@ Since the process is always the same, the idea is to put it in an unattended scr
 The scripts provided here are intended to get a DB covering IBERIA (Portugal, Spain, Andorra, and South of France), and CANARIAS,  but they can be customized to any region of your convenience.
 
 
-## How to use
-#### Install
+
+## How to install
+
 1. Place the scripts in a subfolder, inside  the folder you have configured in QMS for routino (eg. `/CARTO/ROUTINO/Scripts`).
 2. (Only for linux) Make the scripts executable: `chmod +x get_routino_CANARIAS.sh && chmod +x get_routino_IBERIA.sh`    
-#### Run
+
+## How to use
+
 1. Double click on the script, and let it run.
 
 Note that for a large region the process may take more than an hour or two, and at some point it may seem to freeze. Be patient, you won't have to do anything else than let it run, and you can go for a walk. An information message will be displayed when finished. 
