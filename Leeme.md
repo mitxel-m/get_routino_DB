@@ -11,12 +11,16 @@ Como el proceso es siempre el mismo, la idea es ponerlo en un script desatendido
 Los scripts compartidos aquí están pensados para crear una base de datos que cubra IBERIA (Portugal, España, Andorra y el sur de Francia), y CANARIAS, porque es lo que más uso, pero se pueden personalizar para cualquier región que te interese.
 
 
+## Cómo se instala
+
+1. Pon los scripts en una subcarpeta, dentro de la carpeta que tienes configurada en QMS para routino (ej: `/CARTO/ROUTINO/Scripts`).
+2. (Solo en linux) Haz los scripts ejecutables:`chmod +x crea_routino_CANARIAS.sh && chmod +x crea_routino_IBERIA.sh`
+ 
+ _Esto lo harás una sola vez._
+
 ## Cómo se usa
 
-1. Pon los scripts en una subcarpeta, dentro de la carpeta que tienes configurada en QMS para routino (ej: `/CARTO/ROUTINO/Scripts`). Esto lo harás una sola vez.
-
-2. Haz doble clic en el script y dejalo correr.
-
+1. Haz doble clic en el script y dejalo correr.
  
 Ten en cuenta que para una región grande el proceso puede tardar más de una hora o dos, y en algún momento puede parecer que se congela. Ten paciencia, no tendrás que hacer nada más que dejarlo correr, y mientras tu tambien puedes aprovechar para correr un rato o dar un paseo. Cuando el proceso termine aparecerá un mensaje de aviso. 
 
