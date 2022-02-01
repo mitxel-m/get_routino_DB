@@ -1,4 +1,4 @@
-# Script to get routing files for QMapShack-Routino
+# Script to get routing files for QMapShack-Routino in one go.
 
 *(Leeme [en castellano](Leeme.md) )* 
 
